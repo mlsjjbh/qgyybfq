@@ -402,9 +402,9 @@ function buildAudioProxyUrl(url) {
 }
 
 const SOURCE_OPTIONS = [
-    { value: "netease", label: "网易云音乐" },
+    { value: "netease", label: "网抑郁音乐" },
     { value: "kuwo", label: "酷我音乐" },
-    { value: "joox", label: "JOOX音乐" }
+    { value: "joox", label: "隐雾藏音乐" }
 ];
 
 function normalizeSource(value) {
@@ -413,10 +413,10 @@ function normalizeSource(value) {
 }
 
 const QUALITY_OPTIONS = [
-    { value: "128", label: "标准音质", description: "能听" },
-    { value: "192", label: "高品音质", description: "好听" },
+    { value: "128", label: "标准电脑小子", description: "能听" },
+    { value: "192", label: "高品电脑小子", description: "好听" },
     { value: "320", label: "极高音质", description: "夯" },
-    { value: "999", label: "无损音质", description: "这个直接无敌" }
+    { value: "999", label: "牛逼音质", description: "这个直接无敌" }
 ];
 
 function normalizeQuality(value) {
